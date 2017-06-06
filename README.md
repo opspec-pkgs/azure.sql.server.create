@@ -27,7 +27,8 @@ run:
       subscriptionId: 
       azureUsername: 
       azurePassword: 
-      name: 
+      name:
+      location:
       resourceGroup: 
       adminPassword: 
       adminUsername: 
