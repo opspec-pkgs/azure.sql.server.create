@@ -31,6 +31,6 @@ run:
       location:
       resourceGroup: 
       adminPassword: 
-      adminUsername: 
+      adminUser: 
 ```
 
