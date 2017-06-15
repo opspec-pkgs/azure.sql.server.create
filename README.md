@@ -24,13 +24,18 @@ run:
   op:
     pkg: { ref: github.com/opspec-pkgs/azure.sql.server.create#VERSION }
     inputs: 
-      subscriptionId: 
-      azureUsername: 
-      azurePassword: 
+      subscriptionId:
+      loginId:
+      loginSecret:
+      adminPassword:
+      adminUser:
+      resourceGroup:
       name:
+      # begin optional args
       location:
-      resourceGroup: 
-      adminPassword: 
-      adminUser: 
+      loginTenantId:
+      loginType:
+      tags:
+      # end optional args
 ```
 
