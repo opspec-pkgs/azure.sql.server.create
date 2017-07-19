@@ -20,23 +20,22 @@ opctl run github.com/opspec-pkgs/azure.sql.server.create#VERSION
 ## compose
 
 ```yaml
-run:
-  op:
-    pkg: { ref: github.com/opspec-pkgs/azure.sql.server.create#VERSION }
-    inputs: 
-      subscriptionId:
-      loginId:
-      loginSecret:
-      adminPassword:
-      adminUser:
-      resourceGroup:
-      name:
-      # begin optional args
-      location:
-      loginTenantId:
-      loginType:
-      tags:
-      # end optional args
+op:
+  pkg: { ref: github.com/opspec-pkgs/azure.sql.server.create#VERSION }
+  inputs: 
+    subscriptionId:
+    loginId:
+    loginSecret:
+    adminPassword:
+    adminUser:
+    resourceGroup:
+    name:
+    # begin optional args
+    location:
+    loginTenantId:
+    loginType:
+    tags:
+    # end optional args
 ```
 
 # Support
