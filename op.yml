@@ -50,6 +50,7 @@ inputs:
     string:
       description: (space separated) tags (in key[=value] format) for provisioned storage account
       default: " "
+version: 2.0.0
 run:
   container:
     image: { ref: 'azuresdk/azure-cli-python:0.2.10' }
